@@ -1,0 +1,59 @@
+# Core
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Database
+motorengine==2.3.0
+motor==3.3.2
+mongodb==4.6.0
+pymongo==4.6.0
+
+# Async & Caching
+redis==5.0.1
+aioredis==2.0.1
+
+# Background Jobs
+celery==5.3.4
+flower==2.0.1
+
+# Authentication & Security
+PyJWT==2.8.1
+passlib==1.7.4
+python-multipart==0.0.6
+bcrypt==4.1.1
+cryptography==41.0.7
+
+# HTTP & API
+httpx==0.25.2
+requests==2.31.0
+upload==1.12.0
+
+# Email
+email-validator==2.1.0
+aiosmtplib==3.0.1
+Jinja2==3.1.2
+
+# Utilities
+python-dotenv==1.0.0
+python-dateutil==2.8.2
+pytz==2023.3
+slug==3.0.0
+uuid6==1.0.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+faker==20.1.0
+
+# Development
+black==23.12.1
+flake8==6.1.0
+isort==5.13.2
+mypy==1.7.1
+pylint==3.0.3
+
+# Logging & Monitoring
+python-json-logger==2.0.7
